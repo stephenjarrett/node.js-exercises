@@ -1,8 +1,8 @@
 const fs = require('fs');
 const readline = require('readline-sync');
 
-inputFile = readline.question("What file do you want to read and capitalize? Please include directory in your answer as well as the file extension: ");
-outputFile = readline.question("What file do you want to read and capitalize? Please include directory in your answer as well as the file extension: ");
+var inputFile = readline.question("What file do you want to read and capitalize? Please include directory in your answer as well as the file extension: ");
+var outputFile = readline.question("What file do you want to read and capitalize? Please include directory in your answer as well as the file extension: ");
 
 function capitalization(content) {
     return content.toUpperCase();
