@@ -1,6 +1,5 @@
 const fs = require('fs');
 const readline = require('readline-sync');
-const rp = require('request-promise');
 const r = require('request');
 var options;
 
